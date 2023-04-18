@@ -1,0 +1,106 @@
+.front-page-header {
+    border-radius: 0.35rem;
+}
+
+@media only screen and (max-width: 375px) {
+    .front-page-header {
+        height: 18rem;
+        width: 100%;
+        background-position: center;
+    }
+    .hoverlay {
+        /* background-size: 250px 250px; */
+        background-size: 35rem;
+        background-image: url('../full-logo.svg');
+    }
+    .header-wave-design {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 375px) {
+    .front-page-header {
+        height: 18rem;
+        width: 100%;
+    }
+    .hoverlay {
+        /* background-size: 250px 250px; */
+        background-size: 35rem;
+        background-image: url('../full-logo.svg');
+    }
+}
+@media only screen and (min-width: 425px) {
+    .front-page-header {
+        height: 21.5rem;
+        width: 100%;
+    }
+    .hoverlay {
+        /* background-size: 250px 250px; */
+        background-size: 45rem;
+        background-image: url('../full-logo.svg');
+    }
+}
+@media only screen and (min-width: 480px) {
+    .front-page-header {
+        height: 21.5rem;
+        width: 100%;
+    }
+    .hoverlay {
+        /* background-size: 250px 250px; */
+        background-size: 45rem;
+        background-image: url('../full-logo.svg');
+    }
+}
+/* @media only screen and (min-width: 520px) {
+    .front-page-header {
+        height: 21.5rem;
+        width: 100%;
+        background-position: left;
+    }
+    .hoverlay {
+        background-position: center;
+        background-size: cover;
+        background-image: url('../header-banner.svg');
+    }
+} */
+@media only screen and (min-width: 768px) {
+    .front-page-header {
+        height: 21.5rem;
+        width: 100%;
+        background-position: center;
+    }
+    .hoverlay {
+        background-position: center;
+        background-size: cover;
+        background-image: url('../full-logo.svg');
+    }
+}
+@media only screen and (min-width: 900px) {
+    .front-page-header {
+        height: 21.5rem;
+        width: 100%;
+        background-position: center;
+    }
+    .hoverlay {
+        /* background-size: 250px 250px; */
+        background-size: cover;
+        background-color: white;
+        background-image: url('../full-logo.svg');
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .front-page-header {
+        height: 21.5rem;
+        width: 100%;
+        background-position: left;
+    }
+    .hoverlay {
+        /* background-size: 250px 250px; */
+        background-size: cover;
+        background-color: white;
+        background-image: url('../full-caa-logo.svg');
+        background-position: center;
+        background-size: cover;
+    }
+}
